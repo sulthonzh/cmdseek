@@ -1,0 +1,55 @@
+{
+  "name": "cmdseek",
+  "version": "1.0.0",
+  "description": "Fast recursive command search CLI that learns from your usage patterns and suggests commands with fuzzy matching",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "cmdseek": "dist/cli.js"
+  },
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "test": "tsc --project tsconfig.test.json && node --test dist-tests/**/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "command",
+    "search",
+    "cli",
+    "fuzzy",
+    "suggestions",
+    "learning",
+    "developer-tools",
+    "terminal",
+    "cheatsheet"
+  ],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/cmdseek.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sulthonzh/cmdseek/issues"
+  },
+  "homepage": "https://github.com/sulthonzh/cmdseek#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fuse.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}

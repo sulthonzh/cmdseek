@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-tests/
+*.tgz
+.DS_Store
+.npmrc
