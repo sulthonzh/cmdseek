@@ -4,3 +4,7 @@ dist-tests/
 *.tgz
 .DS_Store
 .npmrc
+src/*.js
+src/*.js.map
+src/*.d.ts
+src/*.d.ts.map
