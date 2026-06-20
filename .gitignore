@@ -8,3 +8,11 @@ src/*.js
 src/*.js.map
 src/*.d.ts
 src/*.d.ts.map
+build/
+.env
+coverage/
+*.log
+__pycache__/
+.venv/
+*.egg-info/
+.mypy_cache/
