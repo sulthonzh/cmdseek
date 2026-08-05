@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.31.0",
-    "@types/node": "^20.12.12",
+    "@types/node": "^24.0.0",
     "typescript": "^7.0.0"
   }
 }
